@@ -10,4 +10,4 @@ age =  input("What is your age")
 location = input("Where do you live?")
 
 #print personal info
-print(g"Hello{name}, you are{age}, years old and i suppose you stay in{location}")
+print(f"Hello {name}, you are {age}, years old and i suppose you stay in {location}")
