@@ -4,7 +4,7 @@
 name = input("What is your name ?")
 
 #Ask for user age
-age =  input("What is your age")
+age =  input("What is your age ?")
 
 #Ask user's location 
 location = input("Where do you live?")
