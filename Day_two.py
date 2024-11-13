@@ -25,3 +25,14 @@ elif pet_type == "fish":
     print("You have a fish")
 else: 
     print("Not sure")
+
+
+    pH = 7
+
+if pH < 7:
+  print("Acidic")
+elif pH > 7:
+  print("Basic")
+else:
+  print("Neutral")
+
