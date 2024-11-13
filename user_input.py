@@ -18,6 +18,6 @@ number = int(input('Enter your Admission number here :'))
 #check if the number is valid
 if number > 0 :
     print(f'{number} is now fully registered to the system.')
-    else {
+else :{
 print('Number input is invalid cannot be registered to our systems.')
     }
