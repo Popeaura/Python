@@ -13,4 +13,5 @@ print(c) # prints Hello World
 num = 55
 Num = 510
 print(num) #5
-print(Num) #510
+print(Num) #10
+
