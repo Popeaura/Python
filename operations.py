@@ -22,3 +22,5 @@ except FileNotFoundError:
     print("The file 'prom.txt' does not exist.")
 except Exception as e:
     print(f"An error occurred: {e}")
+finally:
+    file.close()
