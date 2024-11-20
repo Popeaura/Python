@@ -1,1 +1,1 @@
-file = open("variable.py", "r")
+file = open("sample.txt", "r")
