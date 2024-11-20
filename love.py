@@ -1,2 +1,3 @@
 from turtle import *
-bgcolor
+bgcolor("black")
+pencolor("white")
