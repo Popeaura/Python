@@ -13,3 +13,12 @@ with open("sweet.txt", "r") as file:
 with open("sample.txt", "r") as file:
     data = file.read()
     print(data)
+
+try:
+    with open("prom.txt", "r") as file:
+        data = file.read()
+        print(data)
+except FileNotFoundError:
+    print("The file 'prom.txt' does not exist.")
+except Exception as e:
+    print(f"An error occurred: {e}")
