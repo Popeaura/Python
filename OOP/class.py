@@ -4,7 +4,7 @@ class Car:
 
     # Method
     def drive(self):
-        print("The car is driving 🚗")
+        print("The car is driving ")
 
 # Creating an object
 my_car = Car()
