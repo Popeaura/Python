@@ -24,3 +24,7 @@ print(School_name)
 e,f,g,h,i,j =1,"wonderful",4,"Nice",5,100
 print(e)
 print(f)
+print(g)
+print(h)
+print(i)
+print(j)
