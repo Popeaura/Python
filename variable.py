@@ -13,6 +13,7 @@ print(c) # prints Hello World
 num = 55
 Num = 510
 print(num) #5
-print(Num) #10
+print(Num) #10 
 
 School_name = "Olympic primary School"
+print(School_name)
