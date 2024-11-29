@@ -42,4 +42,22 @@ def main():
         print("4. Mark Task as Completed")
         print("5. Exit")
 
-      choice = input ("Enter your choice!:")  
+        choice = input ("Enter your choice!:")  
+
+
+        if choice == '1':
+            display_tasks()
+        elif choice == '2':
+            add_task()
+        elif choice == '3':
+            remove_task()
+        elif choice == '4':
+            mark_completed()
+        elif choice == '5':
+            print("Goodbye!")
+            break
+        else:
+            print("Invalid choice! Please select again.")
+
+if __name__ == "_main_":
+    main()            
