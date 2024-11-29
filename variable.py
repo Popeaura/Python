@@ -28,3 +28,5 @@ print(g)
 print(h)
 print(i)
 print(j)
+
+skills =["Databases", "cyber security", "software development"]
