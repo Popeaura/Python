@@ -15,3 +15,4 @@ Num = 510
 print(num) #5
 print(Num) #10
 
+School_name = "Olympic primary School"
