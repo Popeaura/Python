@@ -30,3 +30,4 @@ print(i)
 print(j)
 
 skills =["Databases", "cyber security", "software development"]
+print(skills)
