@@ -17,3 +17,6 @@ print(Num) #10
 
 School_name = "Olympic primary School"
 print(School_name)
+
+School_name = "Do Your Best Always"
+print(School_name)
