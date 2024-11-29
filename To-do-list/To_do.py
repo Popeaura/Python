@@ -1,22 +1,22 @@
-# To do list 
+# To-Do List App
 
 tasks = []
 
-def display_task():
-    if not task:
+def display_tasks():
+    if not tasks:
         print("\nYour to-do list is empty!")
-        else:
-        print("\Your to -do list :")
-        for index, task in enumerate(task, 1):
-            print(f"{index}.{task}")
+    else:
+        print("\nYour To-Do List:")
+        for index, task in enumerate(tasks, 1):
+            print(f"{index}. {task}")
 
-def display_task():
-        task = input("Enter the task:")
-        tasks.append(task)
-        print(f"Task '{task}' added successfully !")
+def add_task():
+    task = input("Enter the task: ")
+    tasks.append(task)
+    print(f"Task '{task}' added successfully!")
 
 def remove_task():
-    display_task()
+    display_tasks()
     try:
         task_number = int(input("Enter the task number to remove: "))
         removed_task = tasks.pop(task_number - 1)
@@ -24,8 +24,8 @@ def remove_task():
     except (ValueError, IndexError):
         print("Invalid task number!")
 
-def mark_complete():
-    display_task()
+def mark_completed():
+    display_tasks()
     try:
         task_number = int(input("Enter the task number to mark as completed: "))
         tasks[task_number - 1] += " (Completed)"
@@ -41,9 +41,8 @@ def main():
         print("3. Remove Task")
         print("4. Mark Task as Completed")
         print("5. Exit")
-
-        choice = input ("Enter your choice!:")  
-
+        
+        choice = input("Enter your choice: ")
 
         if choice == '1':
             display_tasks()
@@ -59,5 +58,5 @@ def main():
         else:
             print("Invalid choice! Please select again.")
 
-if __name__ == "_main_":
-    main()            
+if __name__ == "__main__":
+    main()
