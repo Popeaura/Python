@@ -41,4 +41,5 @@ def main():
         print("3. Remove Task")
         print("4. Mark Task as Completed")
         print("5. Exit")
-        
+
+      choice = input ("Enter your choice!:")  
