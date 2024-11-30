@@ -31,3 +31,11 @@ print(j)
 
 skills =["Databases", "cyber security", "software development"]
 print(skills)
+
+print(skills[2])
+
+products = ('XBox', 499.99, "Habibi", 23)
+print(products)
+
+# mathematical operations 
+sub = 10 - 5 
