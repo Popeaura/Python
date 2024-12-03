@@ -11,6 +11,8 @@ if  top_of_range <= 0:
 else: 
     print("Please type a number next time") 
     quit()
-      
-random_number = random.randint(-5, 11)
+
+random_number = random.randint(top_of_range)
+print(random_number)
+
 
