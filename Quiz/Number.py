@@ -21,6 +21,6 @@ while True:
     if user_guess <= 0:
         print("Please type a number larger than 0 next time.")
         quit()
-else:
-    print("Please type a number next time.")
-    quit()
+    else:
+        print("Please type a number next time.")
+        quit()
