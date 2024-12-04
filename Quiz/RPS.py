@@ -14,7 +14,7 @@ while True:
         print("Invalid input. Please type Rock, Paper, or Scissors.")
         continue
 
-    random_number = random.randint(0, 2)  # Generate a random number between 0 and 2
+    random_number = random.randint(0, 2)  
     computer_pick = options[random_number]
     print("Computer picked", computer_pick + ".")
 
