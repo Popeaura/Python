@@ -5,3 +5,5 @@ answer =  input("You are on a dirt road it has come to an end and you can go lef
 
 
 if answer == "left":
+
+elif answer == "right":
