@@ -1,0 +1,1 @@
+name = input("Enter your name to continnue with the game")
