@@ -5,7 +5,8 @@ answer =  input("You are on a dirt road it has come to an end and you can go lef
 
 
 if answer == "left":
-    answer = input("You come to a river you can walk around it or swim  to swim across")
+    answer = input("You come to a river you can walk around it or swim  to swim across ? Type walk around and to swim across: ")
+
 
 elif answer == "right":
     print()
