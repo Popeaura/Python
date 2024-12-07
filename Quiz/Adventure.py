@@ -8,10 +8,10 @@ if answer == "left":
     answer = input("You come to a river you can walk around it or swim  to swim across ? Type walk around and to swim across: ")
 
 if answer ==  "swim":
-    print()
+    print('You swam across and were eaten by alligator')
 
 elif answer == "walk":
-    print()
+    print('You walked for many miles , ran out of water and yiu lost the game')
 
 else:
     print('Not a valid option you lose')
