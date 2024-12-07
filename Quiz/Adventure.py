@@ -19,21 +19,20 @@ else:
 elif answer == "right"
 answer = input('You came to a bridge which looks wobbly do you want to go across it or head back(cross/back) ?')
 
-if answer ==  "back":
+  if answer ==  "back":
     print('You  go back and just lost.')
 
-if answer == "across":
+ if answer == "across":
  answer = input ('You crossed the bridge and meet a stranger .Do you talk to them (Yes /No)')
  
  if answer == 'Yes':
     print( 'You talk to the stranger and they give you gold. You WIN !!')
   
-elif answer == 'No':
+ elif answer == 'No':
     print('You ignore the stranger they are offended and you lose.')
  else:
 print('Not a valid option you lose')
 
 
-else:
-    print('Not a valid option You Lose.')    
+print('Thank you for trying ', name)
     
