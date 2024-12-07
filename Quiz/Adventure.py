@@ -11,8 +11,11 @@ if answer ==  "swim":
 
 elif answer == "walk":
 
+else:
+    print
+
 elif answer == "right":
-    print()
+    print('Not a valid option you lose')
 
 else:
     print('Not a valid option You Lose.')    
