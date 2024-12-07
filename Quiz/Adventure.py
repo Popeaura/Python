@@ -26,10 +26,10 @@ if answer == "across":
  answer = input ('You crossed the bridge and meet a stranger .Do you talk to them (Yes /No)')
  
  if answer == 'Yes':
-
+    print( 'You talk to the stranger and they give you gold. You WIN !!')
   
 elif answer == 'No':
-
+    print('You ignore the stranger they are offended and you lose.')
  else:
 print('Not a valid option you lose')
 
