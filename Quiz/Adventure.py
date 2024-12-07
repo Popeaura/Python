@@ -16,8 +16,18 @@ elif answer == "walk":
 else:
     print('Not a valid option you lose')
 
-elif answer == "right":
-print()
+elif answer == "right"
+answer = input('You came to a bridge which looks wobbly do you want to go across it or head back(cross/back) ?')
+
+if answer ==  "back":
+    print('You swam across and were eaten by alligator')
+
+elif answer == "across":
+    print('You walked for many miles , ran out of water and yiu lost the game')
+
+else:
+    print('Not a valid option you lose')
+
 
 else:
     print('Not a valid option You Lose.')    
