@@ -20,11 +20,10 @@ elif answer == "right"
 answer = input('You came to a bridge which looks wobbly do you want to go across it or head back(cross/back) ?')
 
 if answer ==  "back":
-    print('You swam across and were eaten by alligator')
+    print('You  go back and just lost.')
 
 elif answer == "across":
-    print('You walked for many miles , ran out of water and yiu lost the game')
-
+answer = input ()
 else:
     print('Not a valid option you lose')
 
