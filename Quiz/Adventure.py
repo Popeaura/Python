@@ -22,10 +22,16 @@ answer = input('You came to a bridge which looks wobbly do you want to go across
 if answer ==  "back":
     print('You  go back and just lost.')
 
-elif answer == "across":
-answer = input ()
-else:
-    print('Not a valid option you lose')
+if answer == "across":
+ answer = input ('You crossed the bridge and meet a stranger .Do you talk to them (Yes /No)')
+ 
+ if answer == 'Yes':
+
+  
+elif answer == 'No':
+
+ else:
+print('Not a valid option you lose')
 
 
 else:
