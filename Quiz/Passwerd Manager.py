@@ -5,3 +5,5 @@ if mode == 'view':
     pass
 elif mode == 'add':
     pass
+else :
+    print('Invalid Mode')
