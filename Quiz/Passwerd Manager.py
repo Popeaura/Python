@@ -13,7 +13,7 @@ while True:
     break
     
     if mode == 'view':
-        pass
+        view
     elif mode == 'add':
         pass
     else :
