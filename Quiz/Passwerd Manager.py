@@ -15,7 +15,7 @@ while True:
     if mode == 'view':
         view
     elif mode == 'add':
-        pass
+        add
     else :
         print('Invalid Mode')
         continue
