@@ -4,7 +4,8 @@ def view():
       with open('passwords.txt', 'r') as f:
         for line in f.readlines():
             data = line.rstrip()
-    user, passw = data.split("|")
+            user, passw = data.split("|")
+            print("user:", user, "Password:", passw)
 
 
 def add():
