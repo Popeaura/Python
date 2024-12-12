@@ -8,12 +8,12 @@ def add():
     pass
 
 while True:
-    mode = input('Would you like to add a new password or view an existing one (view/ add), press q to quit'lower.()
+    mode = input('Would you like to add a new password or view an existing one (view/ add), press q to quit') lower.()
     if mode == 'q':
-    break
+        break
     
     if mode == 'view':
-        view
+        view()
     elif mode == 'add':
         add
     else :
