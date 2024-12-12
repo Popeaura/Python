@@ -5,7 +5,7 @@ def view():
         for line in f.readlines():
             data = line.rstrip()
             user, passw = data.split("|")
-            print("user:", user, "Password:", passw)
+            print("user:", user, ", Password:", passw)
 
 
 def add():
