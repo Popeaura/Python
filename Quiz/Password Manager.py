@@ -8,7 +8,7 @@ def add():
     pwd = input('Password:')
 
     with open('passwords.txt', 'a') as f:
-        f.write(name + "" + pwd + "\n" )
+        f.write(name + "" + pwd J)
 
 while True:
     mode = input('Would you like to add a new password or view an existing one (view/add), press q to quit').lower()
