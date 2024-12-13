@@ -3,6 +3,7 @@ from cryptography.fernet import Fernet
 master_pwd = input('What is the master password? ')
 
 key + password + text to encrypt = random text
+random text + key + password = text to encrypt
 
 def view():
     try:
