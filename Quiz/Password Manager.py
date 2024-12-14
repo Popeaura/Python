@@ -9,7 +9,8 @@ def write_key():
         key_file.write(key)'''
 
 def load_key():
-    file =  open("key.key" "rb").read()
+    file =  open("key.key" "rb")
+    file.read()
     return
 
 
