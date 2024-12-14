@@ -8,7 +8,7 @@ def write_key():
     with open("key .key", "wb") as key_file:
         key_file.write(key)'''
 
-def write_key():
+def load_key():
     key = Fernet.generate_key()
     with open("key .key", "wb") as key_file:
         key_file.write(key)
