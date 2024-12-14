@@ -9,7 +9,7 @@ def write_key():
         key_file.write(key)'''
 
 def load_key():
-  
+    return op
 def view():
     try:
         with open('passwords.txt', 'r') as f:
