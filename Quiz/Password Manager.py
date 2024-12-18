@@ -14,6 +14,7 @@ def load_key():
     return key 
 
 key = load_key():
+fer = Fernet(key)
 master_pwd = input('What is the master password? ')
 
 
