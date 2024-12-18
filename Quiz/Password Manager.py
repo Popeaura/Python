@@ -7,10 +7,6 @@ def write_key():
     with open("key .key", "wb") as key_file:
         key_file.write(key)'''
 
-
-key = load_key():
-master_pwd = input('What is the master password? ')
-
 def load_key():
     file =  open("key.key" "rb")
     key = file.read()
