@@ -13,6 +13,9 @@ def load_key():
     file.close()
     return key 
 
+key = load_key():
+master_pwd = input('What is the master password? ')
+
 
 def view():
     try:
