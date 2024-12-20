@@ -1,6 +1,6 @@
 from cryptography.fernet import Fernet
 
-# Function to write a key to a file (use this to generate the key initially)
+# Function to write the key (run this once to generate the key file)
 def write_key():
     key = Fernet.generate_key()
     with open("key.key", "wb") as key_file:
@@ -13,16 +13,15 @@ def load_key():
             key = file.read()
         return key
     except FileNotFoundError:
-        print("Key file not found! Please generate a key using the 'write_key' function.")
+        print("Key file not found! Please run the 'write_key' function to generate the key.")
         exit()
 
 # Prompt user for master password
 master_pwd = input('What is the master password? ').encode()
 
-# Load the key and use the master password to derive the encryption key
-base_key = load_key()
-key = Fernet(base_key)  # Use only the base key for Fernet encryption
-fer = Fernet(base_key)
+# Load the encryption key
+key = load_key()  # Use only the key from the file
+fer = Fernet(key)
 
 # Function to view stored passwords
 def view():
