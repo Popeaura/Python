@@ -25,7 +25,7 @@ def view():
             for line in f.readlines():
                 data = line.rstrip()
                 user, passw = data.split("|")
-                print("User:", user, ", Password:",str(fer.decrypt(pwd.encode())) + "\n")
+                print("User:", user, ", Password:",str(fer.decrypt(passw.encode())) + "\n")
     except FileNotFoundError:
         print("No passwords stored yet!")
     except ValueError:
