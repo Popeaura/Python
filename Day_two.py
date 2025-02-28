@@ -27,7 +27,7 @@ else:
     print("Not sure")
 
 
-    pH = 7m0k
+    pH = 7
 
 if pH < 7:
   print("Acidic")
