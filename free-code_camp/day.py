@@ -7,6 +7,7 @@ alphabet = 'abcdefghijklmnopqrstuvwxyz'
 sentence = 'My brain hurts'
 
 
+
 print(number)
 print(text)
 print(text[6])
@@ -18,5 +19,9 @@ print(type(shift))
 
 alphabet.find('z')
 sentence.find('i')
+
+
+#Caesar cipher
+alphabet.find(text[0])
 
 
