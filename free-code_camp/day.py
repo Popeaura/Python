@@ -26,4 +26,7 @@ alphabet.find(text[0])
 
 index =alphabet.find(text[0])
 
+print(index)
+print(text.lower())
+
 
