@@ -1,5 +1,8 @@
 number = 5
 text = 'Hello World'
+shift = 3
+
+
 print(number)
 print(text)
 print(text[6])
