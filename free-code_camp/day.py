@@ -15,5 +15,6 @@ print(type(text))
 print(shift)
 print(type(shift))
 
+alphabet.find('z')
 
 
