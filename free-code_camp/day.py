@@ -2,6 +2,7 @@ number = 5
 text = 'Hello World'
 shift = 3
 
+#find 
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
 sentence = 'My brain hurts'
 
@@ -16,5 +17,6 @@ print(shift)
 print(type(shift))
 
 alphabet.find('z')
+sentence.find('i')
 
 
