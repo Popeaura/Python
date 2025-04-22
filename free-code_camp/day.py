@@ -24,7 +24,7 @@ sentence.find('i')
 #Caesar cipher
 alphabet.find(text[0])
 
-index =alphabet.find(text[0])
+index =alphabet.find(text[0].lower())
 
 print(index)
 print(text.lower())
