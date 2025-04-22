@@ -27,7 +27,7 @@ alphabet.find(text[0])
 index =alphabet.find(text[0].lower())
 shited = alphabet[index]
 
-shited = alphabet[index]
+shited = alphabet[index + shift]
 
 
 print(index)
