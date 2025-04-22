@@ -25,6 +25,7 @@ sentence.find('i')
 alphabet.find(text[0])
 
 index =alphabet.find(text[0].lower())
+shited = alphabet[index]
 
 print(index)
 
