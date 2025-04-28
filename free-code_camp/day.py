@@ -5,6 +5,7 @@ shift = 3
 
 #find 
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
+encrypted_text = '' 
 for char in  text.lower():
     index = alphabet.find(char)
 
