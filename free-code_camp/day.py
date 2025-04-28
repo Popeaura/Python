@@ -4,6 +4,7 @@ shift = 3
 
 #find 
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
+for i  text:
 sentence = 'My brain hurts'
 
 
