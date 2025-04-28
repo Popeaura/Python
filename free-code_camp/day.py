@@ -9,7 +9,7 @@ for char in  text.lower():
     index = alphabet.find(char)
     print (char, index)
 
-    new_char
+    new_char = alphabet[new_index]
 sentence = 'My brain hurts'
 
 
