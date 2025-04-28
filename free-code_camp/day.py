@@ -4,7 +4,7 @@ shift = 3
 
 #find 
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
-for char in  text:
+for char in  text.lower():
     index = alphabet.find(char)
     print (char, index)
 
