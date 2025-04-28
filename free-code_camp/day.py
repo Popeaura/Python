@@ -10,7 +10,7 @@ for char in  text.lower():
     index = alphabet.find(char)
     new_index = index + shift
 
-    encrypted_text = alphabet[new_index]
+    encrypted_text =encrypted_text +  alphabet[new_index]
     print('char:', char, 'encrypted_text:',encrypted_text)
 sentence = 'My brain hurts'
 
