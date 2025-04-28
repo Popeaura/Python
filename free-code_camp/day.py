@@ -10,6 +10,7 @@ for char in  text.lower():
     print (char, index)
 
     new_char = alphabet[new_index]
+
 sentence = 'My brain hurts'
 
 
