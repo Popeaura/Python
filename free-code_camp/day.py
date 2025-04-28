@@ -11,7 +11,7 @@ for char in  text.lower():
     new_index = index + shift
 
     encrypted_text = alphabet[new_index]
-    print('char:', char, 'new char:',new_char)
+    print('char:', char, 'encrypted_text:',encrypted_text)
 sentence = 'My brain hurts'
 
 
