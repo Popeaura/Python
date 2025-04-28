@@ -5,6 +5,7 @@ shift = 3
 #find 
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
 for char in  text:
+    index = alphabet.find(char)
     print (char)
 
 sentence = 'My brain hurts'
