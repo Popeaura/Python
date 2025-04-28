@@ -4,8 +4,8 @@ shift = 3
 
 #find 
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
-for i  text:
-print (i)
+for char in  text:
+    print (char)
 
 sentence = 'My brain hurts'
 
