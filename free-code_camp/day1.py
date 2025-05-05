@@ -8,7 +8,3 @@ if num % 2 == 0 :
 else:    
     print("odd")
 
-num - int(input("Enter your number here "))
-
-if num % 2 == 0 :
-    print("Even ")
