@@ -2,4 +2,4 @@ x = 2
 if x != 0:
     print(x)
 
-num 
+num = int(input("Enter a number: "))
