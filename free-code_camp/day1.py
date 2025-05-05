@@ -8,4 +8,4 @@ if num % 2 == 0 :
 else:    
     print("odd")
 
-def sum_n(n)
+def sum_n(n):
