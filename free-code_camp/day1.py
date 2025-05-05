@@ -10,4 +10,4 @@ else:
 
 num - int(input("Enter your number here "))
 
-if nuum % 2 == 0 ;
+if nuum % 2 == 0 :
