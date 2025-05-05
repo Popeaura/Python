@@ -9,3 +9,4 @@ else:
     print("odd")
 
 def sum_n(n):
+    return
