@@ -9,3 +9,5 @@ else:
     print("odd")
 
 num - int(input("Enter your number here "))
+
+if nuum % 2 == 0 ;
